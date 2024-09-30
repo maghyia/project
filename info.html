@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Video - Badi Maria Keltoum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #e3f2fd; /* Light blue background */
+            color: #333;
+        }
+        header {
+            background-color: #f32172; /* Blue header */
+            color: rgb(255, 255, 255);
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #d2195d; /* Darker blue for headings */
+        }
+        section {
+            background-color: #ffffff; /* White sections */
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 15px;
+        }
+        iframe {
+            border: 2px solid #d59ed0; /* Blue border for the video */
+            border-radius: 5px;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 5px 0;
+        }
+        input, textarea {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #2196f3;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #2196f3;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #1976d2; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Favorite song's Page</h1>
+        <h2>By Badi Maria Keltoum</h2>
+    </header>
+
+    <section id="video">
+        <h2>I would love to share with y'all one of my favorite songs of all time</h2>
+        <iframe width="320" height="240" src="https://youtu.be/jCSvOtUaI8s" frameborder="0" allowfullscreen></iframe>
+        <p>Enjoy listening to it!</p>
+    </section>
+
+    <section id="lyrics">
+        <h2>Some Lyrics from the Song</h2>
+        <p>Here are some lyrics from the song:</p>
+        <blockquote>
+            "WE SHOULD STICK TOGETHER"<br>
+            "YOU'RE MY BESTFRIEND I'LL LOVE YOU FOREVER..."
+        </blockquote>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 by Badi Maria Keltoum | Made with love <3!</p>
+    </footer>
+</body>
+</html>
